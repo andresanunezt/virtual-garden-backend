@@ -3,9 +3,15 @@ class PlantsController < ApplicationController
 
   # GET /plants
   def index
+    if params[:garden_id]
+      @garden = Garden.find_by_id(params[:garden_id])
+      @plants = @garden.plants
+  else
     @plants = Plant.all
-
+  end
+  
     render json: @plants
+  
   end
 
   # GET /plants/1
@@ -35,6 +41,7 @@ class PlantsController < ApplicationController
 
   # DELETE /plants/1
   def destroy
+    
     @plant.destroy
   end
 

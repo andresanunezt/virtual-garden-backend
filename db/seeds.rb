@@ -107,7 +107,7 @@ Plant.destroy_all
                 
     )
 
-    Plant.create(name: "Daist", 
+    Plant.create(name: "Daisy", 
         plant_type: "Flower",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Daisy_G%C3%A4nsebl%C3%BCmchen_Bellis_perennis_01.jpg/440px-Daisy_G%C3%A4nsebl%C3%BCmchen_Bellis_perennis_01.jpg" ,
         water_level: rand(1..10),
