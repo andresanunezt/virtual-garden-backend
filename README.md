@@ -5,7 +5,7 @@ This application is meant to work in conjuction with the following application:
 
 ## Installation
 Simply clone this repo and run `bundle install`.
-Run `rake db:migrate`.
+Run `rails db:migrate`.
 Once all the appropriate gems are installed, the webpp can be accessed through `rails s` or any other local server.
 
 
