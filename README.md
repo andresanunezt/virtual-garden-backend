@@ -1,24 +1,17 @@
-# README
+# Green Thumbs Backend
+This application is meant to work in conjuction with the following application:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Green Thumbs frontend](https://github.com/andresanunezt/virtual-garden-frontend)
 
-Things you may want to cover:
+## Installation
+Simply clone this repo and run `bundle install`.
+Run `rake db:migrate`.
+Once all the appropriate gems are installed, the webpp can be accessed through `rails s` or any other local server.
 
-* Ruby version
 
-* System dependencies
+## Contributing
+Bug reports and pull requests are welcome on GitHub [here](https://github.com/andresanunezt/virtual-garden-backend/pulls).
 
-* Configuration
+## License
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

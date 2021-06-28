@@ -35,7 +35,8 @@ class GardensController < ApplicationController
 
   # DELETE /gardens/1
   def destroy
-    @garden.plants.destroy
+    # @garden.plants.destroy
+    # binding.pry
     @garden.destroy
   end
 
